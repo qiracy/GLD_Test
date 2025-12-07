@@ -1,5 +1,5 @@
 local VERSION = "1.0.0"
-client.auto_script_update("https://raw.githubusercontent.com/qiracy/GLD_Test/refs/heads/main/fitgirl.json", VERSION)
+client.auto_script_update("https://raw.githubusercontent.com/qiracy/GLD_Test/refs/heads/main/fitgirl.lua", VERSION)
 local sourcelink = "https://hydralinks.cloud/sources/fitgirl.json"
 local function endsWith(str, pattern)
     return string.sub(str, -string.len(pattern)) == pattern
